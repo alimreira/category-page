@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+}
+body
+#tame {
+    margin:0;
+    padding:1;
+    font-family: 'century gothic';
+}
+{
+    text-align-center;
+}
+#tame a {
+     text-decoration: none;
+     color:black;
+}
+#links {
+    text-align:center;
+}
+#links a{
+    text-decoration:none;
+    color:black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#links a{
+    
+}

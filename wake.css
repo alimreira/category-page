@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 10%;
+    background-color:#24252a;
+    color:white;
+    align-items:center;
+
+}
+
+ul li{
+    display:inline-block;
+    padding:10px;
+}
+
+li a{
+    text-decoration:none;
+    color:white; 
+    transition: all 0.3s ease 0s;
+
+}
+li a:hover{
+    color: rgb(17, 71,141);
+}
+
+button{
+    padding:10px 15px;
+    border-radius:50px;
+    border:0;
+    background-color: rgb(17, 71,141);
+    color:white;
+    cursor:pointer;
+
+}
+
+button:hover{
+    background-color: rgba(17, 71,141,0.5);
+}
+
+#home{
+    height:60vh;
+   text-align:center;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+}
+
+.hero-content{
+    width:60vw;
+    margin:auto;
+
+}
+.hero-content h1{
+    font-size:3em;
+}
+
+#about{
+    height:60vh;
+   text-align:center;
+   background: linear-gradient(to right, #707e7b70, #09363770), url('./wake\ now\ img.jpg');
+   color:white;
+   background-size:cover;
+   padding-top:40px;
+}
+
+#about h1{
+    font-size:2em;
+}
+
+#about p{
+    padding-top:100px;
+}
+
+#services{
+    height:60vh;
+    text-align:center;
+}
+
+#service-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 80px 80px;
+    grid-gap: 20px;
+}
+
+.service-item{
+    background-color:teal;
+}
+
+.rice{
+    text-align:center;
+}
+#contact circle{
+    background-color:rgb(95, 131, 131);
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin:auto;
+    margin-bottom:8vh;
+
+}
+
+#rich{
+    background-color:powderblue;
+    

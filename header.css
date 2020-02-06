@@ -1,0 +1,38 @@
+header{
+    display: grid;
+    grid-template-columns:2fr 2fr;
+}
+body{
+    font-family: "century gothic"
+}
+#logo{
+    text-align:center;
+}
+nav{
+    text-align:end;
+}
+#Hero{
+    height:50vh;
+    background-color:blueviolet;
+}
+#center-content{
+   width:60vw;
+   margin:auto;
+   text-align:center;
+   color:white;
+   position:relative;
+   top:30%;
+}
+#how-it-works{
+    height:70vh
+}
+#container{
+    width: 70vw;
+    margin:auto;
+    diplay:grid;
+    grid-template-columns: auto auto auto;
+img {
+    width: 80px;
+    border-radius:50%
+}
+.cards{text-align:center;}
